@@ -18,7 +18,7 @@ const Header = () => {
           </li>
         </Link>
 
-        <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
+        {/* <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
           Set-2
         </li>
         <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
@@ -29,7 +29,7 @@ const Header = () => {
         </li>
         <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
           Set-5
-        </li>
+        </li> */}
       </ul>
     </div>
   );
