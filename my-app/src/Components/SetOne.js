@@ -1,12 +1,12 @@
 import React from "react";
-import EightSetOne from "./EightSetOne";
-import FiveSetOne from "./FiveSetOne";
-import FourSetOne from "./FourSetOne";
-import OneSetOne from "./OneSetOne";
-import SevenSetOne from "./SevenSetOne";
-import SixSetOne from "./SixSetOne";
-import ThreeSetOne from "./ThreeSetOne";
-import TwoSetOne from "./TwoSetOne";
+import EightSetOne from "./SetOne/EightSetOne";
+import FiveSetOne from "./SetOne/FiveSetOne";
+import FourSetOne from "./SetOne/FourSetOne";
+import OneSetOne from "./SetOne/OneSetOne";
+import SevenSetOne from "./SetOne/SevenSetOne";
+import SixSetOne from "./SetOne/SixSetOne";
+import ThreeSetOne from "./SetOne/ThreeSetOne";
+import TwoSetOne from "./SetOne/TwoSetOne";
 
 const SetOne = () => {
   return (

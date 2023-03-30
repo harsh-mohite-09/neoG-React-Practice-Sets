@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SetOne from "./Components/SetOne";
 import MainContainer from "./Components/MainContainer";
+import SetTwo from "./Components/SetTwo";
 
 const appRouter = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/setOne",
         element: <SetOne />,
+      },
+      {
+        path: "/setTwo",
+        element: <SetTwo />,
       },
     ],
   },
