@@ -56,11 +56,96 @@
   font-size: 1rem;
 }
 
+.longer-card {
+  width: 550px;
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
 .list-item {
-  margin: 4px 0;
+  margin: 2px 0;
   padding-left: 5px;
+  font-size: 0.9rem;
 }
 
 /*---------- Question - 5 ----------*/
 
 /*---------- Question - 6 ----------*/
+
+.article-container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.article-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 0.8em;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 0.8em;
+}
+
+.btn-article {
+  margin-left: 10px;
+}
+
+.article-content {
+  width: 80%;
+  font-size: 0.9em;
+}
+
+.about-container {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*---------- Question - 8 ----------*/
+
+.product-card {
+  width: 500px;
+  height: auto;
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+.product-list {
+  margin-top: 40px;
+}
+
+/*---------- Question - 9 ----------*/
+
+.color-hex {
+  font-size: 0.9rem;
+}
+
+.btn-color {
+  margin: 5px 0;
+}
+
+.colors-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*---------- Question - 10 ----------*/
+
+.todo-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(196, 194, 194);
+}
