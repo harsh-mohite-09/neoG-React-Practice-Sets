@@ -23,9 +23,11 @@ const Header = () => {
             Set-2
           </li>
         </Link>
-        <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
-          Set-3
-        </li>
+        <Link to="/setThree">
+          <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
+            Set-3
+          </li>
+        </Link>
         {/* <li className="mx-2 p-2 border border-black rounded-xl hover:cursor-pointer">
           Set-4
         </li>

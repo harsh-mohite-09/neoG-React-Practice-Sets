@@ -1,11 +1,12 @@
 import "./App.css";
-import "./SetTwo.css";
+import "./Styles.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./Components/Body";
 import Header from "./Components/Header";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SetOne from "./Components/SetOne";
 import MainContainer from "./Components/MainContainer";
+import SetOne from "./Components/SetOne";
 import SetTwo from "./Components/SetTwo";
+import SetThree from "./Components/SetThree";
 
 const appRouter = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/setTwo",
         element: <SetTwo />,
+      },
+      {
+        path: "/setThree",
+        element: <SetThree />,
       },
     ],
   },

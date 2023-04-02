@@ -149,3 +149,22 @@
 .btn:hover {
   background-color: rgb(196, 194, 194);
 }
+
+/*-----------------------------------*/
+/*-----------   SetThree    ---------*/
+/*-----------------------------------*/
+
+.heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/*---------- Question - 3 ----------*/
+
+.cartoon-list {
+  border: 2px solid orange;
+  padding: 0.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.8rem;
+}
