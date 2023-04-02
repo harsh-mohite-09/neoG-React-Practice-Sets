@@ -37,7 +37,6 @@ const Character = ({ mySuperPower }) => {
   const characters = cartoons.filter(
     ({ superpower }) => superpower === mySuperPower
   );
-  console.log(characters);
   return (
     <ul>
       {characters.map(({ id, name, superpower, magnitude }) => {
